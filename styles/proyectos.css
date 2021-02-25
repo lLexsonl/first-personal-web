@@ -1,0 +1,102 @@
+*{
+    font-family: 'Courier';
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+ul{
+    color: #EBE4C7;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    margin: 1rem;
+    padding: 0.3rem;
+    background-color: rgba(235, 223, 208, 0.3);
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+li.list{
+    border-radius: 0.4rem;
+    margin: 1rem;
+    padding: 0.3rem;
+    background-color: rgba(6, 3, 0, 0.8);
+    display: inline-block;
+}
+a:hover{
+    color: #0E1F1E; 
+}
+
+a{
+    font-size: 1.2rem;
+    color: #EDDEAC;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url("../static/fondo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container-items{
+    width: 100%;
+    height: 100vh;
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 0.2rem;
+    background-color: rgba(237, 222, 172, 0.9);
+}
+
+.check-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.check-list li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.check-list li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 0.4rem;
+    height: 1rem;
+    border-width: 0 0.2rem 0.2rem 0;
+    border-style: solid;
+    border-color: #68783D;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+
+/* Boilerplate stuff */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+div {
+    margin: auto;
+}
