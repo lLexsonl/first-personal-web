@@ -80,6 +80,7 @@ h1{
 }
 
 p{
+    padding: 0.2rem;
     background-color: rgba(237, 222, 172, 0.7);
     color: #060300;
 }

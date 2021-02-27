@@ -86,6 +86,7 @@ article {
 
 p {
     width: 20rem;
+    padding: 0.2rem;
     display: flex;
     justify-content: center;
     align-items: center;

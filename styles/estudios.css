@@ -72,18 +72,20 @@ a{
 }
 
 tr, th {
+    padding: 0.2rem;
     font-size: 1.2rem;
     width: 15rem;
-    background-color: #0E1F1E;
+    background-color: #060300;
     color: #EDDEAC;
-    border: 1px solid #0E1F1E;
+    border: 1px solid #060300;
 }
 
 td {
+    padding: 0.2rem;
     color: #0E1F1E;
     font-weight: bold;
     font-size: 1rem;
-    background-color: rgba(237, 222, 172, 0.7);
+    background-color: rgba(237, 222, 172, 0.8);
 }
 
 input{type="text";} {
