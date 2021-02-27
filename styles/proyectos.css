@@ -22,18 +22,19 @@ li{
     border-radius: 0.2rem;
 }
 
-li.list{
+li.list {
     border-radius: 0.4rem;
     margin: 1rem;
     padding: 0.3rem;
     background-color: rgba(6, 3, 0, 0.8);
     display: inline-block;
 }
+
 a:hover{
     color: #0E1F1E; 
 }
 
-a{
+a {
     font-size: 1.2rem;
     color: #EDDEAC;
     text-decoration: none;

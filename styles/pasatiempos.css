@@ -84,6 +84,9 @@ article {
 
 p {
     width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #060300;
     color: #EDDEAC;
     margin: 0.5rem;
@@ -96,4 +99,10 @@ figure {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h2 {
+    margin-bottom: 0.2rem;
+    background-color: rgba(237, 222, 172, 0.8);
+    border-radius: 0.15rem;
 }
