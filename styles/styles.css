@@ -41,7 +41,8 @@ a{
 }
 
 .container-items{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     height: 100vh;
     padding: 10%;
     display: flex;

@@ -71,31 +71,22 @@ a{
     filter: drop-shadow(16px 16px 20px #EEE2D5) invert(10%);
 }
 
-h1{
-    background-color: #060300;
-    font-size: 3rem;
-    color: #EDDEAC;
-    text-align: center;
-}
-
-p{
-    background-color: rgba(237, 222, 172, 0.7);
-    color: #060300;
-}
-
-tr, th, td {
+tr, th {
     font-size: 1.2rem;
     width: 15rem;
     background-color: #0E1F1E;
-    color: #EEE2D5;
+    color: #EDDEAC;
     border: 1px solid #0E1F1E;
 }
 
 td {
+    color: #0E1F1E;
+    font-weight: bold;
     font-size: 1rem;
+    background-color: rgba(237, 222, 172, 0.7);
 }
 
-input{type="text";}{
+input{type="text";} {
     width: 70%;
     padding: 2rem;
     display: inline-block;
